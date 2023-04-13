@@ -1,8 +1,0 @@
-<?xml version="1.0" ?>
-
-
-<launch>
-    <node pkg="tf"
-        type="static_transform_publisher" 
-        name="base_link_camera_link" args="0 0 0.25 0 0 0 end_effector camera_link 10" />
-</launch>
